@@ -1,3 +1,3 @@
 {
-	"name": "Cheems Bot Multi Device V3"
+	"name": "https://github.com/Khan664/White-King-WhatsApp-Bot.git
 }
