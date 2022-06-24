@@ -305,28 +305,28 @@ const reply = (teks) => {
             XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Subscribe YouTube Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),"sourceUrl": `${linkz2}`}}}, { quoted: m})
         }
         //auto reply by xeon
-  if (Autoreply)
+  
         for (let anji of setik){
 				if (budy === anji){
 					result = fs.readFileSync(`./XeonMedia/sticker/${anji}.webp`)
 					XeonBotInc.sendMessage(m.chat, { sticker: result }, { quoted: m })
 					}
 			}
-			  if (Autoreply)
+			  
 			for (let anju of vien){
 				if (budy === anju){
 					result = fs.readFileSync(`./XeonMedia/audio/${anju}.mp3`)
 					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 					}
 			}
-			  if (Autoreply)
+			
 			for (let anjh of imagi){
 				if (budy === anjh){
 					result = fs.readFileSync(`./XeonMedia/image/${anjh}.jpg`)
 					XeonBotInc.sendMessage(m.chat, { image: result }, { quoted: m })
 					}
 			}
-			  if (Autoreply)
+			  
 					for (let anjh of videox){
 				if (budy === anjh){
 					result = fs.readFileSync(`./XeonMedia/video/${anjh}.mp4`)
@@ -1626,13 +1626,13 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        XeonBotInc.send5ButImg(m.chat, menulist, XeonBotInc.user.name, global.thumb, btn, global.thumb)
+                        XeonBotInc.send5ButImg(m.chat, menulist, global.botname, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        XeonBotInc.send5ButGif(m.chat, menulist, XeonBotInc.user.name, global.vidmenu, btn, global.thumb)
+                        XeonBotInc.send5ButGif(m.chat, menulist, global.botname, global.vidmenu, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        XeonBotInc.send5ButVid(m.chat, menulist, XeonBotInc.user.name, global.vidmenu, btn, global.thumb)
+                        XeonBotInc.send5ButVid(m.chat, menulist, global.botname, global.vidmenu, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        XeonBotInc.send5ButMsg(m.chat, menulist, XeonBotInc.user.name, btn)
+                        XeonBotInc.send5ButMsg(m.chat, menulist, global.botname, btn)
                         } else if (setbot.templateDocument) {
                         let buttonmenu = [
         	{ urlButton: { displayText: `YouTube 🍒`, url : `${websitex}` } },
