@@ -1,3 +1,3 @@
 {
-	"name":https://heroku.com/deploy?template=https://github.com/uwtechshow/White-King-WhatsApp-Bot)
+	"name":https://github.com/Khan664/White-King-WhatsApp-Bot.git)
 }
