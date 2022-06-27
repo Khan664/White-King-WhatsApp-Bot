@@ -48,7 +48,7 @@ global.socialm = "https://github.com/Khan664/White-King-WhatsApp-Bot.git" //ur g
 global.location = "Pakistan" //ur location
 
 //bot bombdy
-global.botname = "devil ofking" //ur bot name
+global.botname = "cheems Bot MD v3" //ur bot name
 global.websitex = "https://www.youtube.com/channel/UC8CNAgNIXy1O2vLBBSN7tcA" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/XzaRCsA.mp4' } //gif and video menu
 global.packname = "Cheems Bot Stickers\n\n\n🦄🦄🦄 "
