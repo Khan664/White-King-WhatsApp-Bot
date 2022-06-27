@@ -1,3 +1,2 @@
-{
-	"name":https://github.com/Khan664/White-King-WhatsApp-Bot.git)
+{https://github.com/clhuang/heroku-buildpack-webp-binaries.git heroku/nodejs)
 }
